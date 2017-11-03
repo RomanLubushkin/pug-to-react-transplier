@@ -202,7 +202,7 @@ const transplier = (fname) => {
                 }
                 return "";
             case "Text":
-                return "'" + node.val.replace("'", "\\'") + "'";
+                return "'" + node.val.replace("'", "\\'").replace('\n', '\\n') + "'";
             case "Doctype":
                 return "";
             case "Conditional":
