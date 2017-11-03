@@ -15,6 +15,11 @@
     "lodash": "^4.17.4",
     "node-watch": "^0.5.5",
     "optimist": "^0.6.1",
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.0-rc.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
